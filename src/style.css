@@ -1,0 +1,48 @@
+@import './fonts.css';
+
+:root {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+
+}
+
+
+#app {
+ 
+  margin: 0 ;
+ 
+}
+::-webkit-scrollbar {
+ display: none;
+} 
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #c5bebe;
+  transition: all 1s;
+  
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d6d5d5;
+  
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* Optional: scrollbar corner */
+::-webkit-scrollbar-corner {
+  background-color: black;
+}
